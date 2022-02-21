@@ -36,5 +36,5 @@ It's safe to use this default password as long you don't make the bitcoin node p
 
 If you do however manually edit this docker-compose file to open the Bitcoin ports 8333 and 8334 to the Internet, you should change the default password to something of your choosing. The password needs to be changed in two files:
 
-`./bitcoin.conf` (line 2)  
-`./stacks-node/config/mainnet/Config.toml` (line 13)  
+[/bitcoin.conf (line 2)](https://github.com/criadoperez/stacks-bitcoin-doublenode/blob/main/bitcoin.conf#L2)  
+[/stacks-node/config/mainnet/Config.toml (line 13)](https://github.com/criadoperez/stacks-bitcoin-doublenode/blob/main/stacks-node/config/mainnet/Config.toml#L13)  
