@@ -4,6 +4,14 @@ Run a Stacks and a Bitcoin node, together, on Docker.
 
 Stacks needs to use the Bitcoin node, and by default when you run a Stacks node you will be using a public Bitcoin node. Here you can run both nodes together and configured so your Stacks node uses your own bitcoin node.
 
+## Why run Stacks node with your own Bitcoin node?
+
+Because running your own Bitcoin node will give you higher security and improved perfomance.
+
+* **Improved perfomance**: The Bitcoin node will serve you blocks faster, as well as UTXOs for your miner (if you run one).
+* **Higher security**: The Bitcoin node will also have validated all bitcoin transactions the Stacks node consumes. If you don't run your own Bitcoin node, you're relying on the SPV headers to vouch for the validity of Bitcoin blocks.
+
+
 ## Requirements
 You will need docker installed. If you don't have it, you can easily get it [here](https://docs.docker.com/get-docker/).
 
