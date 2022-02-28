@@ -15,7 +15,7 @@ Because running your own Bitcoin node will give you higher security and improved
 ## Requirements
 You will need docker installed. If you don't have it, you can easily get it [here](https://docs.docker.com/get-docker/).
 
-Bitcoin's blockchain keeps growing but currently takes up about 500GB of space. You can choose to store this in this same drive you are running docker or store these files in another drive or NAS by simply removing the comment on line 12 of the `docker-compose.yml` file
+Bitcoin's blockchain keeps growing but currently takes up about 500GB of space. You can choose to store this in this same drive you are running docker or store these files in another drive or NAS by simply removing the comment on [line 12 of the docker-compose.yml](docker-compose.yml#L12) file
 
 ## Instructions
 
